@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* ===== 🌐 Global Variables ===== */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-subtext: #28292b;
+  --color-accent: #e5e7eb; /* blue-600 */
+  --color-muted: #6b7280; /* gray-500 */
+  --color-border: #e5e7eb; /* gray-200 */
+  --color-footer: #494949;
+  --color-card: #00000007;
+  --color-highlights: #4f9bff;
+  --color-experience: #b9b9b9;
+  --color-education: #636363;
+}
+
+/* ===== 🌙 Dark Mode Variables ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #2a2a2a;
+    --color-text: #f9fafb;
+    --color-subtext: #d1d5dc;
+    --color-accent: #374151; /* blue-400 */
+    --color-muted: #9ca3af; /* gray-400 */
+    --color-border: #374151; /* gray-700 */
+    --color-footer: #4d4d4d;
+    --color-card: #ffffff1f;
+    --color-highlights: #2ee0ff;
+    --color-experience: #b9b9b9;
+    --color-education: #636363;
+  }
+}
+
+/* ===== 🌐 Apply Theme to Body ===== */
+body {
+  @apply font-mono bg-[var(--color-bg)] text-[var(--color-text)];
+  @apply mt-5 mx-4 md:mx-6 lg:mx-10;
+}
+
+.scrollbar-glass::-webkit-scrollbar {
+  @apply w-2 hidden lg:block;
+}
+
+.scrollbar-glass::-webkit-scrollbar-track {
+  background: var(--color-border);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+}
+
+.scrollbar-glass::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgba(0, 0, 0, 0.8));
+  border-radius: 8px;
+  border: 2px solid var(--color-border);
+}
+
+/* ===== 🧩 Buttons ===== */
+@layer components {
+  .btn {
+    @apply inline-block px-4 py-2 border border-[var(--color-text)] font-medium text-sm transition;
+  }
+
+  .btn-primary {
+    @apply text-[var(--color-text)] hover:opacity-90;
+  }
+
+  .btn-outline {
+    @apply border border-[var(--color-border)] text-[var(--color-text)] hover:bg-[var(--color-border)];
+  }
+}
+
+footer {
+  @apply w-full text-center text-[vat(--color-footer)] text-xs mt-10 border-t border-[var(--color-border)] pt-5;
+}
+
+.card {
+  @apply p-4 bg-[var(--color-card)] backdrop-blur-md  shadow-md  border border-[var(--color-card)] hover:shadow-lg hover:scale-98 transition-all duration-300;
+}
+
+.card p {
+  @apply text-[var(--color-subtext)];
+}
+
+a {
+  @apply p-1 m-1 hover:m-0.5 hover:border-2;
+}
