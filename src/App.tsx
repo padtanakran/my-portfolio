@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+const basePath = import.meta.env.BASE_URL;
 
 interface Skill {
   languages: string[];
@@ -74,27 +75,27 @@ function App() {
 
   const getSkillIcon = (skill: string) => {
     const icons: Record<string, string> = {
-      HTML: "./img/html-icon.svg",
-      CSS: "./img/css-icon.svg",
-      JavaScript: "./img/javascript-icon.svg",
-      TypeScript: "./img/typescript-icon.svg",
-      PHP: "./img/php-icon.svg",
-      React: "./img/react-js-icon.svg",
-      Angular: "./img/angular-icon.svg",
-      "Node.js": "./img/node-js-icon.svg",
-      Express: "./img/express-js-icon.svg",
-      Git: "./img/git-icon.svg",
-      "VS Code": "./img/visual-studio-code-icon.svg",
-      Postman: "./img/postman-icon.svg",
-      Figma: "./img/figma-icon.svg",
-      MySQL: "./img/mysql-icon.svg",
-      MongoDB: "./img/mongodb-icon.svg",
-      ChatGPT: "./img/openai-icon.svg",
-      "GitHub Copilot": "./img/github-copilot-icon.svg",
-      "Tailwind CSS": "./img/tailwind-css-icon.svg",
-      Bootstrap: "./img/bootstrap-5-logo-icon.svg",
-      "REST API": "./img/rest-api-icon.svg",
-      "Responsive Design": "./img/cross-platform-icon.svg",
+      HTML: `${basePath}img/html-icon.svg`,
+      CSS: `${basePath}img/css-icon.svg`,
+      JavaScript: `${basePath}img/javascript-icon.svg`,
+      TypeScript: `${basePath}img/typescript-icon.svg`,
+      PHP: `${basePath}img/php-icon.svg`,
+      React: `${basePath}img/react-js-icon.svg`,
+      Angular: `${basePath}img/angular-icon.svg`,
+      "Node.js": `${basePath}img/node-js-icon.svg`,
+      Express: `${basePath}img/express-js-icon.svg`,
+      Git: `${basePath}img/git-icon.svg`,
+      "VS Code": `${basePath}img/visual-studio-code-icon.svg`,
+      Postman: `${basePath}img/postman-icon.svg`,
+      Figma: `${basePath}img/figma-icon.svg`,
+      MySQL: `${basePath}img/mysql-icon.svg`,
+      MongoDB: `${basePath}img/mongodb-icon.svg`,
+      ChatGPT: `${basePath}img/openai-icon.svg`,
+      "GitHub Copilot": `${basePath}img/github-copilot-icon.svg`,
+      "Tailwind CSS": `${basePath}img/tailwind-css-icon.svg`,
+      Bootstrap: `${basePath}img/bootstrap-5-logo-icon.svg`,
+      "REST API": `${basePath}img/rest-api-icon.svg`,
+      "Responsive Design": `${basePath}img/cross-platform-icon.svg`,
     };
     return icons[skill] || null;
   };
