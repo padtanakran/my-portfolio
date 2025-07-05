@@ -5,14 +5,21 @@
 
   "github": "https://github.com/padtanakran",
   "email": "padtanakran.saroj@gmail.com",
-  "phone": "0909985484",
+  "phone": "-",
 
   "skills": {
     "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP"],
     "frameworks & libraries": ["Angular", "React", "Node.js", "Express"],
-    "tools": ["Git", "VS Code", "Postman", "Figma", "Vite"],
+    "tools & ai": [
+      "Git",
+      "VS Code",
+      "Postman",
+      "Figma",
+      "Vite",
+      "ChatGPT",
+      "GitHub Copilot"
+    ],
     "databases": ["MySQL", "MongoDB"],
-    "ai": ["ChatGPT", "GitHub Copilot"],
     "styling": ["Tailwind CSS", "Bootstrap"],
     "concepts": ["REST API", "Responsive Design"]
   },
