@@ -1,51 +1,45 @@
 {
+  "titleSkills": "Skills",
+  "titleProject": "Projects",
+  "titleExperience": "Experience",
+  "titleEducation": "Education",
+  "titleCertificate": "Certificates",
+
   "fullName": "Padtanakran saroj",
   "jobPosition": "Junior software developer",
   "introduction": "Hey there! I’m someone who’s just starting out in the world of technology.I enjoy learning new things, trying to build simple projects, and improving my skills little by little.This website is where I keep track of what I’m learning, share my small coding experiments, and jot down ideas as I go.If you’re curious, feel free to look around.",
 
   "github": "https://github.com/padtanakran",
   "email": "padtanakran.saroj@gmail.com",
-  "phone": "0909985484",
+  "phone": "-",
 
   "skills": {
     "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP"],
     "frameworks & libraries": ["Angular", "React", "Node.js", "Express"],
-    "tools": ["Git", "VS Code", "Postman", "Figma", "Vite"],
+    "tools & AI": [
+      "Git",
+      "VS Code",
+      "Postman",
+      "Figma",
+      "ChatGPT",
+      "GitHub Copilot"
+    ],
     "databases": ["MySQL", "MongoDB"],
-    "ai": ["ChatGPT", "GitHub Copilot"],
     "styling": ["Tailwind CSS", "Bootstrap"],
     "concepts": ["REST API", "Responsive Design"]
   },
   "project": [
     {
-      "name": "Thinking",
-      "description": "Please wait.",
-      "demo": ""
-    },
-    {
       "name": "Substitution Class Request System",
       "description": "Final project for use by the university",
-      "demo": null
-    }
-  ],
-
-  "certificate": [
-    {
-      "name": "speexx",
-      "fileName": "KMUTNB-CEM.jpg",
-      "detail": "CEFR Level Achievement : A2 (Elementary)"
-    },
-    {
-      "name": "Digital competency test",
-      "fileName": "KMUTNB-DL.jpg",
-      "detail": "Digital competency test for undergraduate students at KMUTNB"
+      "demo": "scrs"
     }
   ],
 
   "experience": [
     {
       "type": "internship",
-      "jobPosition": "full-stack",
+      "jobPosition": "Full-Stack Developer",
       "company": "National Telecom Public Company Limited",
       "start": "2 may 2024",
       "end": "28 june 2024"
@@ -59,7 +53,26 @@
       "universityName": "King Mongkut's University of Technology North Bangkok",
       "degree": "Bachelor of Science (B.Sc.)",
       "major": "Computer Science",
-      "faculty": "Faculty of Science and Technology"
+      "faculty": "Faculty of Science and Technology",
+      "fileName": "Logo_KMUTNB_ENG.png"
+    }
+  ],
+
+  "certificate": [
+    {
+      "name": "internship",
+      "fileName": "NT.jpg",
+      "detail": "internship certificate from National Telecom Public Company Limited"
+    },
+    {
+      "name": "Speexx result",
+      "fileName": "KMUTNB-CEM.jpg",
+      "detail": "CEFR Level Achievement : A2 (Elementary)"
+    },
+    {
+      "name": "Digital competency test",
+      "fileName": "KMUTNB-DL.jpg",
+      "detail": "Digital competency test for undergraduate students at KMUTNB"
     }
   ]
 }

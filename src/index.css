@@ -5,12 +5,12 @@
   --color-bg: #ffffff;
   --color-text: #1a1a1a;
   --color-subtext: #28292b;
-  --color-accent: #e5e7eb; /* blue-600 */
-  --color-muted: #6b7280; /* gray-500 */
-  --color-border: #e5e7eb; /* gray-200 */
+  --color-accent: #e5e7eb;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
   --color-footer: #494949;
   --color-card: #00000007;
-  --color-highlights: #4f9bff;
+  --color-highlights: #3a7bd5;
   --color-experience: #b9b9b9;
   --color-education: #636363;
 }
@@ -21,12 +21,12 @@
     --color-bg: #2a2a2a;
     --color-text: #f9fafb;
     --color-subtext: #d1d5dc;
-    --color-accent: #374151; /* blue-400 */
-    --color-muted: #9ca3af; /* gray-400 */
-    --color-border: #374151; /* gray-700 */
+    --color-accent: #374151;
+    --color-muted: #9ca3af;
+    --color-border: #374151;
     --color-footer: #4d4d4d;
     --color-card: #ffffff1f;
-    --color-highlights: #2ee0ff;
+    --color-highlights: #3a7bd5;
     --color-experience: #b9b9b9;
     --color-education: #636363;
   }
@@ -74,7 +74,7 @@ footer {
 }
 
 .card {
-  @apply p-4 bg-[var(--color-card)] backdrop-blur-md  shadow-md  border border-[var(--color-card)] hover:shadow-lg hover:scale-98 transition-all duration-300;
+  @apply p-4 bg-[var(--color-card)] backdrop-blur-md  shadow-md  border border-[var(--color-card)] hover:scale-98 transition-all duration-300;
 }
 
 .card p {
@@ -82,5 +82,5 @@ footer {
 }
 
 a {
-  @apply p-1 m-1 hover:m-0.5 hover:border-2;
+  @apply p-2 hover:underline  hover:text-[var(--color-highlights)] transition-colors duration-200;
 }
