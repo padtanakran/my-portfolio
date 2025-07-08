@@ -1,4 +1,10 @@
 {
+  "titleSkills": "Skills",
+  "titleProject": "Projects",
+  "titleExperience": "Experience",
+  "titleEducation": "Education",
+  "titleCertificate": "Certificates",
+
   "fullName": "Padtanakran saroj",
   "jobPosition": "Junior software developer",
   "introduction": "Hey there! I’m someone who’s just starting out in the world of technology.I enjoy learning new things, trying to build simple projects, and improving my skills little by little.This website is where I keep track of what I’m learning, share my small coding experiments, and jot down ideas as I go.If you’re curious, feel free to look around.",
@@ -26,7 +32,7 @@
     {
       "name": "Substitution Class Request System",
       "description": "Final project for use by the university",
-      "demo": null
+      "demo": "scrs"
     }
   ],
 
@@ -47,13 +53,19 @@
       "universityName": "King Mongkut's University of Technology North Bangkok",
       "degree": "Bachelor of Science (B.Sc.)",
       "major": "Computer Science",
-      "faculty": "Faculty of Science and Technology"
+      "faculty": "Faculty of Science and Technology",
+      "fileName": "Logo_KMUTNB_ENG.png"
     }
   ],
 
   "certificate": [
     {
-      "name": "speexx",
+      "name": "internship",
+      "fileName": "NT.jpg",
+      "detail": "internship certificate from National Telecom Public Company Limited"
+    },
+    {
+      "name": "Speexx result",
       "fileName": "KMUTNB-CEM.jpg",
       "detail": "CEFR Level Achievement : A2 (Elementary)"
     },
