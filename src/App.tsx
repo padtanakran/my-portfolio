@@ -9,7 +9,7 @@ function App() {
       <Route path="/projects" element={<Project />} />
       <Route path="/projects/:name" element={<Project />} />
 
-      {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
