@@ -10,7 +10,7 @@
   "skills": {
     "languages": ["HTML", "CSS", "JavaScript", "TypeScript", "PHP"],
     "frameworks & libraries": ["Angular", "React", "Node.js", "Express"],
-    "tools & ai": [
+    "tools & AI": [
       "Git",
       "VS Code",
       "Postman",
@@ -24,34 +24,16 @@
   },
   "project": [
     {
-      "name": "Thinking",
-      "description": "Please wait.",
-      "demo": ""
-    },
-    {
       "name": "Substitution Class Request System",
       "description": "Final project for use by the university",
       "demo": null
     }
   ],
 
-  "certificate": [
-    {
-      "name": "speexx",
-      "fileName": "KMUTNB-CEM.jpg",
-      "detail": "CEFR Level Achievement : A2 (Elementary)"
-    },
-    {
-      "name": "Digital competency test",
-      "fileName": "KMUTNB-DL.jpg",
-      "detail": "Digital competency test for undergraduate students at KMUTNB"
-    }
-  ],
-
   "experience": [
     {
       "type": "internship",
-      "jobPosition": "full-stack",
+      "jobPosition": "Full-Stack Developer",
       "company": "National Telecom Public Company Limited",
       "start": "2 may 2024",
       "end": "28 june 2024"
@@ -66,6 +48,19 @@
       "degree": "Bachelor of Science (B.Sc.)",
       "major": "Computer Science",
       "faculty": "Faculty of Science and Technology"
+    }
+  ],
+
+  "certificate": [
+    {
+      "name": "speexx",
+      "fileName": "KMUTNB-CEM.jpg",
+      "detail": "CEFR Level Achievement : A2 (Elementary)"
+    },
+    {
+      "name": "Digital competency test",
+      "fileName": "KMUTNB-DL.jpg",
+      "detail": "Digital competency test for undergraduate students at KMUTNB"
     }
   ]
 }
